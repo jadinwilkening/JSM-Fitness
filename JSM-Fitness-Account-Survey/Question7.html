@@ -1,0 +1,56 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="35" max="100">35%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+      <div class="Question7" id="question7">
+        <br>
+      <label>
+        7. Which days of the week would you like to workout?
+        <small>(Check all that apply)</small>
+      </label>
+      <br>  
+      <br>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input id ="Monday" type="checkbox" name="inp" value="Monday">Monday</input></label>
+      <br>
+      <label for="inp-2">
+        <input id ="Tuesday" type="checkbox" name="inp" value="Tuesday">Tuesday</input></label>
+      <br>
+      <label for="inp-3">
+        <input id ="Wednesday" type="checkbox" name="inp" value="Wednesday">Wednesday</input></label>
+      <br>
+      <label for="inp-4">
+        <input id ="Thursday" type="checkbox" name="inp" value="Thursday">Thursday</input></label>
+      <br>
+      <label for="inp-5">
+        <input id ="Friday" type="checkbox" name="inp"value="Friday">Friday</input></label>
+      <br>
+      <label for="inp-6">
+        <input id ="Saturday" type="checkbox" name="inp"value="Saturday">Saturday</input></label>
+      <br>
+      <label for="inp-7">
+        <input id ="Sunday" type="checkbox" name="inp" value="Sunday">Sunday</input></label>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question6.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question8.html"onclick="addInfo7()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

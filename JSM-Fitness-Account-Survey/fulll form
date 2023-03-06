@@ -1,0 +1,397 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+    <div class="form-control">
+      <label for="name" id="label-name">
+        Name:
+      </label>
+      <br>
+
+      <!-- Input Type Text -->
+      <input type="text" id="name" placeholder="Enter your name" />
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label for="email" id="label-email">
+        Email:
+      </label>
+      <br>
+      <!-- Input Type Email-->
+      <input type="email" id="email" placeholder="Enter your email" />
+
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label for="age" id="label-age">
+        Age:
+      </label>
+      <br>
+      <!-- Input Type Text -->
+      <input type="text" id="age" placeholder="Enter your age" />
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label for="gender" id="label-age">
+        Gender:
+      </label>
+      <br>
+      <!-- Input Type Text -->
+      <input type="text" id="gender" placeholder="Enter your Gender" />
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label for="role" id="label-role">
+        Would you like to build muscle mass or lose body fat weight?
+      </label>
+      <br>
+      <!-- Dropdown options -->
+      <select name="role" id="role">
+        <option value="Build Muscle Mass">
+          Build Muscle Mass
+        </option>
+        <option value="Lose Weight">
+          Lose Weight
+        </option>
+      </select>
+    </div>
+    <br>
+    <div class="form-control">
+      <label>
+        How many days a week would you like to work out?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">0-3 days</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">4-5 days</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">5-7 days</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">However many days my busy schedule allows</input>
+      </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label>Which of the following do you like to do for exercise?
+        <small>(Check all that apply)</small>
+      </label>
+      <br>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox" name="inp">Weight Lifting</input></label>
+      <br>
+      <label for="inp-2">
+        <input type="checkbox" name="inp">Walk</input></label>
+      <br>
+      <label for="inp-3">
+        <input type="checkbox" name="inp">Run</input></label>
+      <br>
+      <label for="inp-4">
+        <input type="checkbox" name="inp">Hike</input></label>
+      <br>
+      <label for="inp-5">
+        <input type="checkbox" name="inp">Swim</input></label>
+      <br>
+      <label for="inp-6">
+        <input type="checkbox" name="inp">Dance</input></label>
+      <br>
+      <label for="inp-8">
+        <input type="checkbox" name="inp">Aerobics</input></label>
+      <br>
+      <label for="inp-9">
+        <input type="checkbox" name="inp">Pilates</input></label>
+      <br>
+      <label for="inp-10">
+        <input type="checkbox" name="inp">Yoga</input></label>
+      <br>
+      <label for="inp-11">
+        <input type="checkbox" name="inp">Team Sport</input></label>
+      <br>
+      <label for="inp-12">
+        <input type="checkbox" name="inp">Other/Not Listed</input></label>
+      <br>
+      <input type="text" id="other" placeholder="Please enter 'Other Activity'" />
+    </div>
+    <br>
+    <br>
+    <div class="form-control">
+      <label>
+        When do you usually like to workout?
+      </label>
+
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Morning</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">Midday</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">Evening</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Night</input>
+      </label>
+      <br>
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label>
+        Do you own any workout equipment?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Yes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">No</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">I'm not sure</input>
+      </label>
+      <br>
+    </div>
+    <br>
+    <br>
+    <div class="form-control">
+      <label>
+        Do you enjoy home workout plans?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Yes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">No</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">I like a combination of Home and Gym workout plans</input>
+      </label>
+      <br>
+    </div>
+    <br>
+    <br>
+    <div class="form-control">
+      <label>
+        How long would you like to workout each session?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">30-45 minutes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">45-60 minutes</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">60-90 minutes</input>
+      </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label>
+        Do you have any physical injuries that may prevent you from completing your workout program?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Yes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">No</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">I prefer not to say</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">I'm not sure</input>
+      </label>
+      <br>
+    </div>
+    <br>
+    <br>
+    <div class="form-control">
+      <label>
+        Do you have any disabilities that may prevent you from completing your workout program?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Yes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">No</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">I prefer not to say</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">I'm not sure</input>
+      </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label>
+        Do you have any medical conditions that may prevent you from completing your workout program?
+      </label>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">Yes</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed">No</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed">I prefer not to say</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed">I'm not sure</input>
+      </label>
+    </div>
+    <br>
+    <br>
+
+    <div class="form-control">
+      <label>Which days of the week would you like to workout?
+        <small>(Check all that apply)</small>
+      </label>
+      <br>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox" name="inp">Monday</input></label>
+      <br>
+      <label for="inp-2">
+        <input type="checkbox" name="inp">Tuesday</input></label>
+      <br>
+      <label for="inp-3">
+        <input type="checkbox" name="inp">Wednesday</input></label>
+      <br>
+      <label for="inp-4">
+        <input type="checkbox" name="inp">Thursday</input></label>
+      <br>
+      <label for="inp-5">
+        <input type="checkbox" name="inp">Friday</input></label>
+      <br>
+      <label for="inp-6">
+        <input type="checkbox" name="inp">Saturday</input></label>
+      <br>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Sunday</input></label>
+      <br>
+      <br>
+      <div class="form-control">
+        <label>Which areas of the body would you like to focus on?
+          <small>(Check all that apply)</small>
+        </label>
+        <br>
+        <!-- Input Type Checkbox -->
+        <label for="inp-1">
+          <input type="checkbox" name="inp">Upperbody (Shoulders, Back, Chest, Arms)</input></label>
+        <br>
+        <label for="inp-2">
+          <input type="checkbox" name="inp">Midsection (Core, Obliques, Lower Back)</input></label>
+        <br>
+        <label for="inp-3">
+          <input type="checkbox" name="inp">Lower Body (Legs, Glutes)</input></label>
+        <br>
+        <label for="inp-4">
+          <input type="checkbox" name="inp">Cardio</input></label>
+        <br>
+        <label for="inp-5">
+          <input type="checkbox" name="inp">Full Body</input></label>
+        <br>
+        <br>
+        <div class="form-control">
+          <label>
+            How do you normally like to exercise?
+          </label>
+          <br>
+          <!-- Input Type Radio Button -->
+          <label for="recommed-1">
+            <input type="radio" id="recommed-1" name="recommed">Alone</input>
+          </label>
+          <br>
+          <label for="recommed-2">
+            <input type="radio" id="recommed-2" name="recommed">With a partner</input>
+          </label>
+          <br>
+          <label for="recommed-3">
+            <input type="radio" id="recommed-3" name="recommed">In a group</input>
+          </label>
+        </div>
+        <br>
+        <br>
+
+        <div class="form-control">
+          <label for="comment">
+            Any comments or suggestions
+          </label>
+
+          <!-- multi-line text input control -->
+          <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <a href="Q2.html">
+          <button type="button" value="submit">
+            Next
+          </button>
+        </a>
+  </form>
+</body>

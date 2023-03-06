@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="100" max="100">100%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+       <div class="Question">
+          <label for="comment">
+            <br>
+           20. Is there anything else you would like to tell us about your fitness expectations?
+          </label>
+          <br>
+         <br>
+          <!-- multi-line text input control -->
+          <textarea name="comment" id="comment" placeholder="Enter your comment here" rows="8" cols="50" >
+            
+            </textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Next">
+        <a href="WorkoutPage.html"onclick="addInfo20();createWorkout()">Submit</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

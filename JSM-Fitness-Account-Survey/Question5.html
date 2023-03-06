@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="25" max="100">25%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+    <div class="Question">
+      <br>
+      <label for="role" id="label-role">
+       5. Would you like to build muscle mass or lose body fat weight?
+      </label>
+      <br>
+      <br>
+      <br>
+      <!-- Dropdown options -->
+      <select name="role" id="role" >
+        <option value="Please select an option" >Please select an option</option>
+        <option value="Build Muscle Mass">Build Muscle Mass</option>
+        <option value="Lose Weight">Lose Weight</option>
+        <option value="Get Toned">Get Toned</option>
+      </select>
+    </div>
+    <div>
+        <div class="Previous">
+        <a href="Question4.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question6.html"onclick="addInfo5()">Next</a>
+    </div>
+  </form>
+    <script src="script.js"></script> 
+</body>

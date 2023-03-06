@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="75" max="100">75%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+      <div class="Question">
+        <label>
+          <br>
+          15. Which areas of the body would you like to focus on?
+          <small>(Check all that apply)</small>
+        </label>
+        <br>
+        <br>
+        <!-- Input Type Checkbox -->
+        <label for="inp-1">
+          <input type="checkbox" id="upper" name="inp"value="Upperbody (Shoulders, Back, Chest, Arms)">Upperbody (Shoulders, Back, Chest, Arms)</input></label>
+        <br>
+        <label for="inp-2">
+          <input type="checkbox"  id="mid" name="inp" value="Midsection (Core, Obliques, Lower Back)">Midsection (Core, Obliques, Lower Back)</input></label>
+        <br>
+        <label for="inp-3">
+          <input type="checkbox"  id="lower" name="inp" value="Lower Body (Legs, Glutes)">Lower Body (Legs, Glutes)</input></label>
+        <br>
+        <label for="inp-4">
+          <input type="checkbox"  id="cardio" name="inp" value="Cardio">Cardio</input></label>
+        <br>
+        <label for="inp-5">
+          <input type="checkbox"  id="full" name="inp" value="Full Body">Full Body</input></label>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question14.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question16.html"onclick="addInfo15()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

@@ -1,0 +1,54 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="15" max="100">15%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+     <div class="Question">
+      <label>
+        <br>
+        3. I want my fitness program to be intense.
+      </label>
+      <br>
+       <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" name="quest3" value="Strongly Agree">Stongly Agree</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" name="quest3" value="Somewhat Agree">Somewhat Agree</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" name="quest3" value="Neutral">Neutral</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" name="quest3" value="Somewhat Disagree">Somewhat Disagree</input>
+      </label>
+       <br>
+      <label for="recommed-1">
+        <input type="radio" name="quest3" value="Strongly Disagree">Strongly Disagree</input>
+      </label>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question2.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question4.html" onclick="addInfo3()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

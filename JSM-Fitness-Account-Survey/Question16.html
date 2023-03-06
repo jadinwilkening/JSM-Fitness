@@ -1,0 +1,70 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="80" max="100">80%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+      <div class="Question16">
+      <label>
+      <br>
+        16. Which of the following do you like to do for exercise?
+        <small>(Check all that apply)</small>
+      </label>
+      <br>
+      <br>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox" name="inp" value="Weight Lifting" id="WeightLifting">Weight Lifting</input></label>
+      <br>
+      <label for="inp-2">
+        <input type="checkbox" name="inp"value="Walk" id="Walk">Walk</input></label>
+      <br>
+      <label for="inp-3">
+        <input type="checkbox" name="inp" value="Run" id="Run">Run</input></label>
+      <br>
+      <label for="inp-4">
+        <input type="checkbox" name="inp" value="Hike" id="Hike">Hike</input></label>
+      <br>
+      <label for="inp-5">
+        <input type="checkbox" name="inp" value="Swim"id="Swim">Swim</input></label>
+      <br>
+      <label for="inp-6">
+        <input type="checkbox" name="inp" value="Dance" id="Dance">Dance</input></label>
+      <br>
+      <label for="inp-8">
+        <input type="checkbox" name="inp" value="Aerobics" id="Aerobics">Aerobics</input></label>
+      <br>
+      <label for="inp-9">
+        <input type="checkbox" name="inp" value="Pilates" id="Pilates">Pilates</input></label>
+      <br>
+      <label for="inp-10">
+        <input type="checkbox" name="inp" value="Yoga" id="Yoga">Yoga</input></label>
+      <br>
+      <label for="inp-11">
+        <input type="checkbox" name="inp" value="Team Sport"id="TeamSport">Team Sport</input></label>
+      <br>
+      <label for="inp-12">
+        <input type="checkbox" name="inp" value="Other/Not Listed" id="Other/Not Listed">Other/Not Listed</input></label>
+      <br>
+      <input type="text" id="Other" placeholder="Please enter 'Other Activity'" />
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question15.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question17.html"onclick="addInfo16()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

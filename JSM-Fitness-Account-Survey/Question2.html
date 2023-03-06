@@ -1,0 +1,55 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="10" max="100">10%    </progress>    </label>
+  </div>
+  
+  <!-- Create Form -->
+  <form id="form">
+    
+    <!-- Details -->
+     <div class="Question">
+      <label>
+        <br>
+        2. I want my fitness program to have variety.
+      </label>
+      <br>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" name = "quest2" value="Strongly Agree" style="text-align:justify required= "required"> Stongly Agree</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" name = "quest2" value="Somewhat Agree"  style="text-align:justify"> Somewhat Agree</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" name = "quest2"  value="Neutral"  style="text-align:justify"> Neutral</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" name = "quest2" value="Somewhat Disagree"  style="text-align:justify"> Somewhat Disagree</input>
+      </label>
+       <br>
+      <label for="recommed-1">
+        <input type="radio" name = "quest2"  value="Strongly Disagree" style="text-align:justify"> Stongly Disagree</input>
+      </label>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+        <div class="Previous">
+        <a href="entergender.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question3.html" onclick="addInfo2()">Next</a></div>
+  </form>
+  <script src="script.js"></script>
+</body>

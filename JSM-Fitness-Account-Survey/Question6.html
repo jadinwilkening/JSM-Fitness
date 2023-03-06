@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="30" max="100">30%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+     <div class="Question">
+      <label>
+      <br>
+        6. How many days a week would you like to work out?
+      </label>
+      <br> 
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="quest6" value="3 days">3 days</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="quest6" value="5 days">5 days</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="quest6" value="7 days">7 days</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="quest6" value="However many days my busy schedule allows">However many days my busy schedule allows</input>
+      </label>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question5.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question7.html"onclick="addInfo6()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

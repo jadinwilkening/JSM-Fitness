@@ -1,0 +1,51 @@
+<head>
+  <meta charset="utf-8">
+  <title> Profile Survey </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <br>
+  <h1 style="text-align: center">JSM Fitness Survey Form</h1>
+    <br>
+  <div class= "PercentBar">
+  <label>Progress <progress value="40" max="100">40%    </progress>    </label>
+  </div>
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+      <div class="Question">
+      <label>
+      <br>
+       8. When do you usually like to workout?
+      </label>
+      <br>
+      <br>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed"value="Morning">Morning</input>
+      </label>
+      <br>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed" value="Midday">Midday</input>
+      </label>
+      <br>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed" value="Evening">Evening</input>
+      </label>
+      <br>
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed"value="Night">Night</input>
+      </label>
+      <br>
+    </div>
+
+        <!-- Multi-line Text Input Control -->
+          <div class="Previous">
+        <a href="Question7.html">Previous</a></div>
+        <div class="Next">
+        <a href="Question9.html"onclick="addInfo8()">Next</a></div>
+  </form>
+    <script src="script.js"></script> 
+</body>

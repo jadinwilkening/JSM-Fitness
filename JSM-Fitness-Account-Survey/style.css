@@ -1,0 +1,124 @@
+.PercentBar{
+  color:  #3a196b;
+  background-color: #f3f0f5 !important;
+  border-radius: 25px;
+  border: 2px solid #c39ad5 !important;
+  margin:auto;
+  position:relative;
+  text-align: center;
+  text-shadow: 2px 2px 2px #9483c3, 0 0 1em #231056;
+  font-size: 1em !important; /* Increase text size */
+  font-weight: bold !important; /* Bold text */
+  padding: 4px !important; /* Increase distance between text and border */
+  width: 20% !important; /* Make the button quarter-width */
+}
+
+.form-control{
+  text-align: center;
+  background-color: #f3f0f5 !important;
+  margin:auto;
+  position:relative;
+  border-radius: 25px;
+  border: 4px solid #c39ad5 !important;
+  color: #381a65 !important; /*text color*/
+  font-size: 3em !important; /* Increase text size */
+  font-weight: bold !important; /* Bold text */
+  padding: 4px !important; /* Increase distance between text and border */
+  width: 25% !important; /* Make the button quarter-width */
+  height: 25%;
+}
+
+.Previous a {
+  position: absolute;
+  top: 85%;
+  padding: 12px;
+  background-color: #edd0f0;
+  box-shadow: 1px 1px #2e2130;
+  border-radius: 4px;
+}
+
+.Previous a:hover {
+  background-color: #3f0764;
+  box-shadow: 3px 3px #9372c0;
+}
+
+.Next a {
+  position: absolute;
+  top: 85%;
+  right:90pt;
+  padding: 12px;
+  background-color: #edd0f0;
+  box-shadow: 1px 1px #2e2130;
+  border-radius: 4px;
+}
+
+.Next a:hover {
+  background-color: #3f0764;
+  box-shadow: 3px 3px #9372c0;
+}
+
+.Question{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  background-color: #f3f0f5 !important;
+  margin: auto;
+  position: relative;
+  vertical-align: ;
+  top:  65px;
+  left: 20px;
+  border-radius: 35px;
+  border: 6px solid #c39ad5 !important;
+  color: #2f1358 !important; /*text color*/
+  font-weight: bold !important; /* Bold text */
+  height: 50% !important ;
+  width: 50% !important; /* Make the text box width*/
+}
+
+.Question7{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  background-color: #f3f0f5 !important;
+  margin: auto;
+  position: relative;
+  vertical-align: ;
+  top:  65px;
+  left: 20px;
+  border-radius: 35px;
+  border: 6px solid #c39ad5 !important;
+  color: #2f1358 !important; /*text color*/
+  font-weight: bold !important; /* Bold text */
+  height: 50% !important ;
+  width: 50% !important; /* Make the text box width*/
+}
+
+.Question16{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  background-color: #f3f0f5 !important;
+  margin: auto;
+  position: relative;
+  top:  65px;
+  left: 20px;
+  border-radius: 35px;
+  border: 6px solid #c39ad5 !important;
+  color: #2f1358 !important; /*text color*/
+  font-weight: bold !important; /* Bold text */
+  height: 60% !important ;
+  width: 50% !important; /* Make the text box width*/
+}
+
+h1{
+  color:#f7f7f7;
+  background-color: #1e1a23;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  text-shadow: #9c7ea9 1px 0 10px;
+}
+
+body {
+  background: #19122b;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9we8qZDwvGIjTpb0E3AGrwsQX3kRzVzWnA&usqp=CAU);
+  background-attachment: fixed;
+  background-repeat:space repeat;
+  background-position: center;
+}
